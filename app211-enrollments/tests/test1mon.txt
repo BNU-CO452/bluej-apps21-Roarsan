@@ -1,0 +1,17 @@
+Student roshan = new Student("Roshan Gauchan", 22039683);
+Course computing = new Course("BT1CTG1", "BSc Computing");
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc Computing
+
+roshan.print();
+ Student ID: 22039683 Name: Roshan Gauchan
+roshan.printCourse();
+    Exception occurred.
+roshan.print();
+ Student ID: 22039683 Name: Roshan Gauchan
+roshan.print();
+ Student ID: 22039683 Name: Roshan Gauchan
