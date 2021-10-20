@@ -1,33 +1,57 @@
 
 /**
- * This class models a BNU module which forms part
- * of a course
+ * This class represents a course module and contains
+ *information on the module title and code.
+ *
  * @author Roshan Gauchan
- * @version 1.0
+ * @version 1.0  20/10/2021
  */
 public class Module
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private String code;
+    private String  title;
+    private int credit;
+    
 
     /**
      * Constructor for objects of class Module
      */
-    public Module()
+    public Module(String code, String title)
     {
         // initialise instance variables
-        x = 0;
+        credit= 15;
+        this.code = code;
+        this.title = title;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+   public String getCode()
+   {
+       return code;
+   }
+    
+    public String getTitle()
+   {
+       return title;
+   }
+   
+   public void setCredit(int credit)
+   {
+       this.credit = credit;
+   }
+    
+   /**
+     * Print the details of the course, the list
+     * of students enrolled and the module
      */
-    public int sampleMethod(int y)
+    public void print()
     {
-        // put your code here
-        return x + y;
+        
+        
+        System.out.println(" Module Code: " + code + ": "
+                           + title + "Credit" + credit);
+        System.out.println();
+        
+        
     }
 }
