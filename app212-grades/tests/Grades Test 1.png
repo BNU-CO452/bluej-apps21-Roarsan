@@ -1,0 +1,57 @@
+Student roshan = new Student("Roshan Gauchan", 22039683);
+Student roshan = new Student("Roshan Gauchan", 22039683);
+roshan.print();
+ Student ID: 22039683, Roshan Gauchan
+Student roshan = new Student("Roshan Gauchan", 22039683);
+Course computing = new Course("BT1CTG1", "BSc (Hons) Computing");
+roshan.enrol(computing);
+roshan.printCourse();
+ Student ID: 22039683, Roshan Gauchan
+
+ Course BT1CTG1: BSc (Hons) Computing
+
+Module CO452 = new Module("CO452", "Programming Concepts");
+computing.addModule(CO452);
+ModuleMark roshanCO452 = new ModuleMark(CO452);
+roshanCO452.setMark(93);
+roshan.addMark(roshanCO452);
+roshan.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22039683, Roshan Gauchan
+
+ Course BT1CTG1: BSc (Hons) Computing
+
+
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Student roshan = new Student("Roshan Gauchan", 22039683);
+Course computing = new Course("BT1CTG1", "BSc Computing");
+Module programming = new Module("CO452", "Programming Concepts");
+Module CO452 = new Module("CO452", "Programming Concepts");
+computing.addModule(CO452);
+roshan.enrol(computing);
+roshan.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22039683, Roshan Gauchan
+
+ Course BT1CTG1: BSc Computing
+
+ CO452: 	Programming Concepts
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
