@@ -1,26 +1,6 @@
-Student roshan = new Student();
 Course computing = new Course();
-Module co452 = new Module("co452", "Programming Concepts");
-Module co454 = new Module("co454", "Digital Technologies & Professional Practice");
-Module co450 = new Module("co450", "Computer architecture");
-Module co456 = new Module("co456", "Web Development");
+Student roshan = new Student();
 roshan.enrol(computing);
-computing.addModule(co452);
-computing.addModule(co454);
-computing.addModule(co450);
-computing.addModule(co456);
-ModuleMark co452Mark = new ModuleMark(co452);
-ModuleMark co454Mark = new ModuleMark(co454);
-ModuleMark co450Mark = new ModuleMark(co450);
-ModuleMark co456Mark = new ModuleMark(co456);
-co452Mark.setMark(80);
-co454Mark.setMark(80);
-co450Mark.setMark(80);
-co456Mark.setMark(80);
-roshan.addMark(co452Mark);
-roshan.addMark(co454Mark);
-roshan.addMark(co450Mark);
-roshan.addMark(co456Mark);
 roshan.printTranscript();
  ------------------------------------
  App21-02: Exam Board Transcript 2021
@@ -47,13 +27,5 @@ roshan.printTranscript();
 
  CO454: 	Digital Technology & Professional Practice	  15	56	C
 
- co452: 	Programming Concepts	  15	80	A
 
- co454: 	Digital Technologies & Professional Practice	  15	80	A
-
- co450: 	Computer architecture	  15	80	A
-
- co456: 	Web Development	  15	80	A
-
-
- No Final Course Grade Yet!
+ Final Course Grade = B
