@@ -13,6 +13,7 @@ public class Module
     
     private String code;
     private String title;
+    
 
     /**
      * Constructor for objects of class Module 
