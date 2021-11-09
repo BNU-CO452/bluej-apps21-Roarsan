@@ -1,0 +1,44 @@
+Module programming = new Module();
+Module programming = new Module("CO452", "Programming Concepts");
+Module programming = new Module("CO452", "Programming Concepts");
+programming.getCode()
+    returned String "CO452"
+programming.getTitle()
+    returned String "Programming Concepts"
+programming.getCode()
+    returned String "CO452"
+Module Programming = new Module("CO452", "Programming Concepts");
+Programming.setCredit(15);
+Module programming = new Module("CO452", "Programming Concepts");
+programming.print();
+ Module Code: CO452: Programming ConceptsCredit15
+
+Course computing = new Course("BT1CTG1", "BSc (Hons)Computing");
+Module programming = new Module("CO452", "Programming Concepts");
+computing.addModule(programming);
+Course computing = new Course("BCT1GT1", "BSC (Hons) Computing");
+Module programming = new Module("CO452", "Programming Concepts");
+computing.addModule(programming);
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BCT1GT1: BSC (Hons) Computing
+
+ Module Code: CO452: Programming ConceptsCredit15
+
+Student roshan = new Student("Roshan Gauchan", 22039683);
+Course programming = new Course("BT1CTG1", "BSc (Hons) Computing");
+Course computing = new Course("BT1CTG1", "BSc (Hons) Computing");
+Module programming = new Module("CO452", "Programming Concepts");
+computing.addModule(programming);
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc (Hons) Computing
+
+ Module Code: CO452: Programming ConceptsCredit15
+

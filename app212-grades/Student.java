@@ -17,6 +17,7 @@ public class Student
     private Course course;
     // The marks awarded for the modules on the course
     private ArrayList<ModuleMark> marks;
+    private ArrayList<Student> students;
     
     /**
      * This constructor creates a new student with a
@@ -24,7 +25,7 @@ public class Student
      */
     public Student()
     {
-        this("Derek", 12345678);
+        this("Roshan Gauchan", 22039683);
     }
     
     /**
@@ -67,7 +68,14 @@ public class Student
      */
     public void awardTestMarks()
     {
-        
+        int value = 80;
+        for(Module module : course.modules)
+        {
+            ModuleMark mark = new ModuleMark(module);
+            mark.setMark(value);
+            value = value - 8;
+            marks.add(mark);
+        }
     }
     
     /**
@@ -104,7 +112,11 @@ public class Student
     
     private void printModules()
     {
-
+     for(ModuleMark mark : marks)
+     {
+         mark.print();
+         System.out.println("\t" + course.convertToGrade(mark.getValue()));
+     }
     }
     
     public void printTranscript()
@@ -122,6 +134,7 @@ public class Student
         System.out.println(" Code \t Module \t\tCredit\t Mark \t Grade");
         System.out.println(" ---- \t -------------------- \t ------\t ---- \t -----");
         
+        printModules();
        
         Grades finalGrade = course.calculateGrade(marks);
         

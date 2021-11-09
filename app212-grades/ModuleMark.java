@@ -40,11 +40,17 @@ public class ModuleMark
         }
     }
     
+    /**
+     * return the value of mark
+     */
     public void setMark(int mark)
     {
         this.mark = mark;
     }
     
+    /**
+     * return the value of module
+     */
     public Module getModule()
     {
         return module;
