@@ -1,0 +1,112 @@
+StockList stockLis1 = new StockList();
+StockDemo stockDem1 = new StockDemo(stockLis1);
+stockLis1.print();
+
+ Roshan's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Samsung Galaxy S20 Ultra stock level: 0
+ ID 105: Apple iPhone 13 Pro stock level: 0
+ ID 106: Google Pixel 6A stock level: 0
+ ID 107: Samsung Galaxy A20 stock level: 0
+ ID 108: Apple iPhone mini stock level: 0
+ ID 109: Google Pixel 5A stock level: 0
+ ID 110: Samsung Galaxy Tab stock level: 0
+
+stockDem1.runDemo();
+
+ Roshan's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Samsung Galaxy S20 Ultra stock level: 0
+ ID 105: Apple iPhone 13 Pro stock level: 0
+ ID 106: Google Pixel 6A stock level: 0
+ ID 107: Samsung Galaxy A20 stock level: 0
+ ID 108: Apple iPhone mini stock level: 0
+ ID 109: Google Pixel 5A stock level: 0
+ ID 110: Samsung Galaxy Tab stock level: 0
+
+Product100Not found
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+
+ Roshan's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 4
+ ID 102: Apple iPhone 12 stock level: 32
+ ID 103: Google Pixel 4A stock level: 12
+ ID 104: Samsung Galaxy S20 Ultra stock level: 39
+ ID 105: Apple iPhone 13 Pro stock level: 19
+ ID 106: Google Pixel 6A stock level: 13
+ ID 107: Samsung Galaxy A20 stock level: 25
+ ID 108: Apple iPhone mini stock level: 33
+ ID 109: Google Pixel 5A stock level: 16
+ ID 110: Samsung Galaxy Tab stock level: 29
+
+Product100Not found
+Selling Quantitites of Stock
+
+All stock is sold !!
+Selling4101
+Selling Quantitites of Stock
+
+Selling12102
+Selling Quantitites of Stock
+
+Selling9103
+Selling Quantitites of Stock
+
+Selling28104
+Selling Quantitites of Stock
+
+Selling1105
+Selling Quantitites of Stock
+
+Selling7106
+Selling Quantitites of Stock
+
+Selling8107
+Selling Quantitites of Stock
+
+Selling7108
+Selling Quantitites of Stock
+
+All stock is sold !!
+Selling16109
+Selling Quantitites of Stock
+
+Selling13110
+
+ Roshan's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 20
+ ID 103: Google Pixel 4A stock level: 3
+ ID 104: Samsung Galaxy S20 Ultra stock level: 11
+ ID 105: Apple iPhone 13 Pro stock level: 18
+ ID 106: Google Pixel 6A stock level: 6
+ ID 107: Samsung Galaxy A20 stock level: 17
+ ID 108: Apple iPhone mini stock level: 26
+ ID 109: Google Pixel 5A stock level: 0
+ ID 110: Samsung Galaxy Tab stock level: 16
+
+stockLis1.buyProduct(102, 10);
+NOT FOUND
+stockLis1.printProduct(102);
+ ID 102: Apple iPhone 12 stock level: 30

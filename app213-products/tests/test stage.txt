@@ -1,0 +1,19 @@
+Product iphone = new Product(111, "i phone 14");
+iphone.print();
+ ID 111: i phone 14 stock level: 0
+iphone.increaseQuantity(4);
+iphone.print();
+ ID 111: i phone 14 stock level: 4
+iphone.decreaseQuantity(2);
+Product ipad = new Product(112, "ipad 6");
+StockList stockLis1 = new StockList();
+stockLis1.add(ipad);
+stockLis1.add(iphone);
+stockLis1.print();
+
+ Roshan's Stock List
+ ====================
+
+ ID 112: ipad 6 stock level: 0
+ ID 111: i phone 14 stock level: 2
+
