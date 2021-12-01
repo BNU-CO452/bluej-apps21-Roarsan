@@ -31,6 +31,7 @@ public class InputReader
     {
         String inputLine = null;
         boolean isValid = false;
+        reader = new Scanner(System.in);
         
         while(!isValid)
         {

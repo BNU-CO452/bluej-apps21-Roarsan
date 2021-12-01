@@ -1,0 +1,315 @@
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > print
+
+ Roshan's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Samsung Galaxy S20 Ultra stock level: 0
+ ID 105: Apple iPhone 13 Pro stock level: 0
+ ID 106: Google Pixel 6A stock level: 0
+ ID 107: Samsung Galaxy A20 stock level: 0
+ ID 108: Apple iPhone mini stock level: 0
+ ID 109: Google Pixel 5A stock level: 0
+ ID 110: Samsung Galaxy Tab stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > quit
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > add
+Please enter the id: 
+200
+Please enter the name of product: Blackberry
+Product200,Blackberryhas been added
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > add
+Please enter the id: 
+101
+Please enter the name of product: Samsung Galaxy S20
+Product101,Samsung Galaxy S20has been added
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > remove
+Please enter the id: 
+101
+Please enter the name of product: Samsung Galaxy S20
+Product101,Samsung Galaxy S20has been removed
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > 300
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > remove
+Please enter the id: 
+300
+Please enter the name of product: banana
+    Exception occurred.
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > buy
+Please enter the id: 
+101
+Please enter the amount of product: 
+4
+NOT FOUND
+
+ Roshan's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 4
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Samsung Galaxy S20 Ultra stock level: 0
+ ID 105: Apple iPhone 13 Pro stock level: 0
+ ID 106: Google Pixel 6A stock level: 0
+ ID 107: Samsung Galaxy A20 stock level: 0
+ ID 108: Apple iPhone mini stock level: 0
+ ID 109: Google Pixel 5A stock level: 0
+ ID 110: Samsung Galaxy Tab stock level: 0
+
+Bought4ofSamsung Galaxy S20
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > sell
+Please enter the ID: 
+101
+Please enter the quantity of the product you would like to sell: 
+4
+Selling Quantitites of Stock
+
+All stock is sold !!
+Selling4101
+
+ Roshan's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Samsung Galaxy S20 Ultra stock level: 0
+ ID 105: Apple iPhone 13 Pro stock level: 0
+ ID 106: Google Pixel 6A stock level: 0
+ ID 107: Samsung Galaxy A20 stock level: 0
+ ID 108: Apple iPhone mini stock level: 0
+ ID 109: Google Pixel 5A stock level: 0
+ ID 110: Samsung Galaxy Tab stock level: 0
+
+Sold 4 of Samsung Galaxy S20
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > search
+Please enter the name of the product: Samsung Galaxy S20
+    Exception occurred.
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > low
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Samsung Galaxy S20 Ultra stock level: 0
+ ID 105: Apple iPhone 13 Pro stock level: 0
+ ID 106: Google Pixel 6A stock level: 0
+ ID 107: Samsung Galaxy A20 stock level: 0
+ ID 108: Apple iPhone mini stock level: 0
+ ID 109: Google Pixel 5A stock level: 0
+ ID 110: Samsung Galaxy Tab stock level: 0
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > restock
+
+ Roshan's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 10
+ ID 102: Apple iPhone 12 stock level: 10
+ ID 103: Google Pixel 4A stock level: 10
+ ID 104: Samsung Galaxy S20 Ultra stock level: 10
+ ID 105: Apple iPhone 13 Pro stock level: 10
+ ID 106: Google Pixel 6A stock level: 10
+ ID 107: Samsung Galaxy A20 stock level: 10
+ ID 108: Apple iPhone mini stock level: 10
+ ID 109: Google Pixel 5A stock level: 10
+ ID 110: Samsung Galaxy Tab stock level: 10
+
+********************************
+  App21-04: Stock Application 
+      by Roshan Gauchan
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a new product
+    Sell:       Sell a new product
+    Search:     Search a new product
+    Low:        Product with low stock
+    Restock:    Restock products with low stock
+
+Please enter your choice > 

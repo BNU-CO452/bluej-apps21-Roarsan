@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+ import java.util.ArrayList;
 /**
  * This class stores information about a course
  * that enrolled students may want to complete
